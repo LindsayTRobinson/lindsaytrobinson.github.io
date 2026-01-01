@@ -43,7 +43,7 @@
                     </div>
             </details>
             <a title="Download Slides" class="PaperLink" 
-                href="/assets/Slides/Retail Static - Slides.pdf" target="_blank" rel="noopener noreferrer"> 
+                href="/assets/Slides/Retail Demand Estimation - Slides.pdf" target="_blank" rel="noopener noreferrer"> 
                 Slides </a>
         </div>
     </div>
