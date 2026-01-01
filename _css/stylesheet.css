@@ -1,0 +1,155 @@
+/*Colors*/ 
+  /*Library*/
+  :root {
+      /*Greyscale*/
+        --White: #FFFFFF;
+        --LightGrey: #C8C8C8;
+      --DarkGrey: #2D2D2D;
+      /*  --Black: #000000;*/
+      /*Navy*/
+        --LightNavy: #083973;
+        --Navy: #000F46; 
+        --DarkNavy: #000B34;
+      /*Light Accents*/
+        --Sage: #ABC1A7;
+      /*--Blue: #46C8F0;
+        --Pink: #EB7BBE;
+        --Red: #FF2D3C;
+        --Yellow: #FFD629;
+        --Green: #9FB825;*/
+      /*Dark Accents*/
+        --DarkSage: #444A40;
+        --DarkBlue: #033C55;
+        /*--DarkPink: #73234B;
+        --DarkRed: #78000D;
+        --DarkYellow: #A84500;
+        --DarkGreen: #2C421D;*/
+  }
+  /*Scheme Colours*/
+  :root{
+    /*Dark*/
+    --DarkBackground: var(--DarkNavy);
+    --DarkText: var(--White);
+    --DarkAccent: var(--Sage);
+    /*Light*/
+    --LightBackground: var(--White);
+    --LightText: var(--DarkNavy);
+    --LightAccent: var(--DarkSage);
+  }
+  /*Element Colours*/
+    /*Base*/
+    html {
+      background-color: light-dark(var(--LightBackground),var(--DarkBackground));
+      color:            light-dark(var(--LightText), var(--DarkText));
+    }
+    /*Icon Links*/
+    .IconLink {
+      color: light-dark(var(--LightText), var(--DarkText));
+    }
+    .IconLink:hover {
+      color: light-dark(var(--LightAccent), var(--DarkAccent));
+    }
+    /*Introduction*/
+    .Introduction {
+      border-color: light-dark(var(--LightAccent), var(--DarkAccent));
+    }
+    /*Paper Links*/
+    .PaperLink {
+      color: light-dark(var(--LightAccent), var(--DarkAccent));
+    }
+  /*Color Scheme*/
+    /*Default*/
+      :root{
+        color-scheme: dark light; 
+      }
+    /*Browser Preferences*/
+      @media (prefers-color-scheme: light) {
+        :root{color-scheme:light;}
+      }
+      @media (prefers-color-scheme: dark) {
+        :root{color-scheme:dark;}
+      }
+  
+/*Fonts*/
+  /*Base*/
+  .Text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  /*Abstract Dropdowns*/
+  .AbstractText {
+    font-size: 14px;
+    line-height: 1.3em;
+  }
+
+/*Layout*/
+  /*Base*/
+  html {
+    min-width: 300px;
+    max-width: 800px;
+    padding: 0% 1%;
+    margin: auto;
+    scrollbar-width: none;  
+    text-align: center;
+  }
+  /*Photo*/
+  .Photo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  /*Icon Links*/
+    /*Container*/
+    .IconLinks {
+      margin-bottom: 0.25em;
+    }
+    /*Icons*/
+    .IconLink {
+      display: inline;
+      text-decoration: none;
+    }
+    .Icon {
+      fill: currentColor;
+      width: 48px;
+      height: 48px;
+    }
+  /*Introduction*/
+  .Introduction {
+    border-style: solid none;
+    border-width: 1px;
+  }
+  /*Papers*/
+    /*Container*/
+    .Paper {
+      margin: 1em 0em;
+    }
+    /*Titles*/
+      .PaperTitle {
+        font-weight: bold;
+      }
+    /*Links*/
+      /*Link Text*/
+      .PaperLink {
+        margin: 0em 0.2em;
+        text-decoration: none;
+      }
+      .PaperLink:hover {
+        font-weight: bold;
+        cursor: pointer;
+      }
+    /*Abstract Dropdown*/
+      .PaperLinks summary {
+        list-style: none;
+      }
+      .PaperLinks details {
+        display: inline-block;
+      }
+      .AbstractText {
+        margin: 0% 3%;
+        margin-bottom: 0.5em;
+        padding: 0.1em 0em;
+        border-style: dashed none;
+        border-width: 1px;
+        text-align: justify;  
+        }
