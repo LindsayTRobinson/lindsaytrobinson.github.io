@@ -142,6 +142,9 @@
       .PaperLinks summary {
         list-style: none;
       }
+      .PaperLinks summary::webkit-details-marker {
+        display: none;
+      }
       .PaperLinks details {
         display: inline-block;
       }
