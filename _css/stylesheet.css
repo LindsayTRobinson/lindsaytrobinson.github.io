@@ -145,6 +145,9 @@
       .PaperLinks summary::webkit-details-marker {
         display: none;
       }
+      .PaperLinks summary::marker {
+        display: none;
+      }
       .PaperLinks details {
         display: inline-block;
       }
