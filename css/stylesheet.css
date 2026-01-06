@@ -3,12 +3,12 @@
   :root {
       /*Greyscale*/
         --White: #FFFFFF;
-        --LightGrey: #C8C8C8;
-      --DarkGrey: #2D2D2D;
-      /*  --Black: #000000;*/
+      /*--LightGrey: #C8C8C8;
+        --DarkGrey: #2D2D2D;
+        --Black: #000000;*/
       /*Navy*/
-        --LightNavy: #083973;
-        --Navy: #000F46; 
+      /*--LightNavy: #083973;
+        --Navy: #000F46;*/ 
         --DarkNavy: #000B34;
       /*Light Accents*/
         --Sage: #ABC1A7;
@@ -19,8 +19,8 @@
         --Green: #9FB825;*/
       /*Dark Accents*/
         --DarkSage: #444A40;
-        --DarkBlue: #033C55;
-        /*--DarkPink: #73234B;
+      /*--DarkBlue: #033C55;
+        --DarkPink: #73234B;
         --DarkRed: #78000D;
         --DarkYellow: #A84500;
         --DarkGreen: #2C421D;*/
