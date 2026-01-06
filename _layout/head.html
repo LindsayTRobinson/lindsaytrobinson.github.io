@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{PageTitle}}</title>
+  <meta name="description" content="{{PageDescription}}">
+  <meta name="google-site-verification" content="{{PageGoogleVerificationCode}}">
   <meta charset="UTF-8">
-  <meta name="google-site-verification" content="fnDgrG-aZbjo5Z9DR2VQvzFTUmtqbqh6d8ssSSoR10I" />
-  {{isdef PageTitle}}        <title>{{PageTitle}}</title>                             {{end}}
-  {{isdef PageDescription}}  <meta name="description" content="{{PageDescription}}"/> {{end}}
-  {{isdef PageKeywords}}     <meta name="keywords" content="{{PageKeywords}}"/>       {{end}}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="{{PageCanonicalLink}}">
   <link rel="stylesheet" href="/css/stylesheet.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' type='text/css'>
 </head> 
 <body>
   <div class="HeaderBar">
     <div class="Photo">
-      <img src={{LinkHeadShot}}> 
+      <img src={{LinkHeadShot}} alt="HeadShot"> 
     </div>
     <div class="IconLinks">
       {{isdef LinkPhone}}
