@@ -93,6 +93,10 @@
     scrollbar-width: none;  
     text-align: center;
   }
+  /*Page Title*/
+  .PageTitle {
+    display: none;
+  }
   /*Photo*/
   .Photo img {
     height: 200px;
