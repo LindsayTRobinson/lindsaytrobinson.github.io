@@ -2,11 +2,12 @@
 div_content      = "Text"
 generate_sitemap = false
 
-Author                      = "Lindsay Robinson"
-PageTitle                   = "Lindsay Robinson"
-PageDescription             = "Economics PhD Student, University of Melbourne"
-PageCanonicalLink           = "https://lindsaytrobinson.github.io"
-PageGoogleVerificationCode  = "fnDgrG-aZbjo5Z9DR2VQvzFTUmtqbqh6d8ssSSoR10I"
+Author                          = "Lindsay Robinson"
+PageTitle                       = "Lindsay Robinson"
+PageDescription                 = "Economics PhD Student, University of Melbourne"
+PageCanonicalLink               = "https://lindsaytrobinson.github.io"
+PageGoogleVerificationCode      = "fnDgrG-aZbjo5Z9DR2VQvzFTUmtqbqh6d8ssSSoR10I"
+PageMicrosoftVerificationCode   = "EF59D2A89C394B3AB1F17B49583545AE"
 
 LinkHeadShot = "/assets/WebsiteHeadshot.jpg"
 
