@@ -1,5 +1,6 @@
 +++
 div_content      = "Text"
+generate_robots  = false
 generate_sitemap = false
 
 Author                          = "Lindsay Robinson"
@@ -18,7 +19,6 @@ LinkScholar = "https://scholar.google.com.au/citations?user=Rg9dtVoAAAAJ"
 +++
 
 <!--    
-PageKeywords        = "Lindsay Robinson, Economist, Economics, Melbourne"
 LinkPhone           = "sms:+61425880942"
 LinkGitHub          = "https://github.com/LindsayTRobinson"
 LinkX               = "https://x.com/lindsayrobins0n"

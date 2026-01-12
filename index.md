@@ -18,7 +18,7 @@
                         This allows the algorithms to condition on a higher dimensional representation of the price history, and to better distinguish between temporary and sustained competitor deviation from collusive prices.  
                         The algorithms can coordinate quickly on symmetric joint-profit-maximizing collusive prices in a repeated simultaneous oligopoly pricing game.  
                         I explore the robustness of collusive prices to the algorithms' parametrization and the strategic environment, and conclude with implications for competition policy.
-                    <div/>
+                    </div>
             </details>
             <a title="Download Slides" class="PaperLink"  
                 href="/assets/Slides/Algorithmic Collusion - Slides.pdf" target="_blank" rel="noopener noreferrer"> 
@@ -49,45 +49,3 @@
     </div>
 </div>
 ~~~
-
-
-<!---
-
-
-Insert Github Repo Name
-@def prepath = "reponame" 
-
-@def title = "Lindsay Robinson"
-
-@def hasmath = true
-@def hascode = true
-
-# Franklin syntax sandbox
-
-This page is meant as a sandbox for Franklin Syntax so that you can quickly practice or experience things.
-
-## Sandbox
-
-Write whatever you want here to practice Franklin Syntax:
-
-```julia:./ex1
-using LinearAlgebra, Random
-Random.seed!(135)
-a, b = randn(50), randn(50)
-println(dot(a, b))
-println(sum(ai * bi for (ai, bi) ∈ zip(a, b)))
-```
-
-\output{./ex1}
-
-(yet another example that floating point arithmetics can be complicated).
-
-$$ \forall x \in \R:\quad \scal{x, x} \ge 0 $$
-
-\newcommand{\E}{\mathbb E}
-
-Surely some people remember the ordering, but I always forget:
-
-$$ \varphi(\E[X]) \le \E[\varphi(X)] $$
-
-for $\varphi$ convex. -->
