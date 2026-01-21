@@ -79,7 +79,7 @@
   }
     /*Abstract Summary*/
     .PaperLinks summary {
-      font-size: inherit;
+      font-size: 16px;
     }
   /*Abstract Dropdowns*/
   .AbstractText {
