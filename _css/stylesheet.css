@@ -77,6 +77,10 @@
     font-size: 16px;
     line-height: 1.5em;
   }
+    /*Abstract Summary*/
+    .PaperLinks summary {
+      font-size: inherit;
+    }
   /*Abstract Dropdowns*/
   .AbstractText {
     font-size: 14px;
