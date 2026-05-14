@@ -15,6 +15,7 @@ LinkHeadShot = "/assets/WebsiteHeadshot.jpg"
 
 LinkCV      = "/assets/WebsiteCV.pdf"
 LinkEmail   = "mailto:lindsay.robinson@student.unimelb.edu.au"
+LinkUniMelb = "https://fbe.unimelb.edu.au/our-people/graduate-research/economics/lindsay-robinson"
 LinkSSRN    = "https://ssrn.com/author=9728612"
 LinkScholar = "https://scholar.google.com.au/citations?user=Rg9dtVoAAAAJ"
 +++

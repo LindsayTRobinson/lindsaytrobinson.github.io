@@ -45,9 +45,26 @@
     /*Icon Links*/
     .IconLink {
       color: light-dark(var(--LightText), var(--DarkText));
+      .SVGForeground {
+        fill: light-dark(var(--LightText), var(--DarkText))
+      }
+      .SVGDark {
+        fill: light-dark(var(--LightText), var(--DarkBackground))
+      }
+      .SVGLight {
+        fill: light-dark(var(--LightBackground), var(--DarkText))
+      }
     }
     .IconLink:hover {
-      color: light-dark(var(--LightAccent), var(--DarkAccent));
+      .SVGForeground {
+        fill: light-dark(var(--LightAccent), var(--DarkAccent))
+      }
+      .SVGDark {
+        fill: light-dark(var(--LightAccent), var(--DarkBackground))
+      }
+      .SVGLight {
+        fill: light-dark(var(--LightBackground), var(--DarkAccent))
+      }
     }
     /*Introduction*/
     .Introduction {
@@ -118,7 +135,6 @@
       text-decoration: none;
     }
     .Icon {
-      fill: currentColor;
       width: 48px;
       height: 48px;
     }
